@@ -1,0 +1,70 @@
+﻿{
+  "AutoModelAddress": "M241",
+  "CarModelCameraCarModelAddress": "",
+  "CarModelCameraNGAddress": "M223",
+  "CarModelCameraOKAddress": "",
+  "LightControlCOMName": "COM1",
+  "ListCameraParameters": [
+    {
+      "CameraName": "CarIdentificationCamera",
+      "CameraSerialNum": "00DA0477185",
+      "CameraExposure": 10,
+      "CameraGain": 15,
+      "CameraTriggerMode": "Auto",
+      "IsSaveOKImage": true,
+      "IsSaveNGImage": true
+    },
+    {
+      "CameraName": "VINCodeCamera1",
+      "CameraSerialNum": "00DA0480168",
+      "CameraExposure": 28,
+      "CameraGain": 15,
+      "CameraTriggerMode": "Manual",
+      "IsSaveOKImage": true,
+      "IsSaveNGImage": true
+    },
+    {
+      "CameraName": "VINCodeCamera2",
+      "CameraSerialNum": "00DA0480169",
+      "CameraExposure": 20,
+      "CameraGain": 15,
+      "CameraTriggerMode": "Manual",
+      "IsSaveOKImage": true,
+      "IsSaveNGImage": true
+    },
+    {
+      "CameraName": "VINCodeCamera3",
+      "CameraSerialNum": "00DA0480170",
+      "CameraExposure": 40,
+      "CameraGain": 16,
+      "CameraTriggerMode": "Manual",
+      "IsSaveOKImage": true,
+      "IsSaveNGImage": true
+    },
+    {
+      "CameraName": "VINCodeCamera4",
+      "CameraSerialNum": "00DA0480170",
+      "CameraExposure": 35,
+      "CameraGain": 16,
+      "CameraTriggerMode": "Manual",
+      "IsSaveOKImage": true,
+      "IsSaveNGImage": true
+    },
+    {
+      "CameraName": "VINCodeCamera5",
+      "CameraSerialNum": "00DA0480170",
+      "CameraExposure": 35,
+      "CameraGain": 16,
+      "CameraTriggerMode": "Manual",
+      "IsSaveOKImage": true,
+      "IsSaveNGImage": true
+    }
+  ],
+  "PLCCommunicationIP": "192.168.1.20",
+  "PLCCommunicationPort": 6000,
+  "PLCStopAddress": "",
+  "SystemOnlineAddress": "M220",
+  "VINCodeCameraNGAddress": "M225",
+  "VINCodeCameraOKAddress": "M224",
+  "VINCodeCameraVINCodeAddress": "D3400"
+}

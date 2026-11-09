@@ -1,0 +1,61 @@
+*.exp
+*.ilk
+*.dll
+*.pdb
+*.opensdf
+*.sdf
+*.suo
+*.log
+*.pch
+*.res
+*.tlog
+*.lastbuildstate
+*.user
+*.aps
+*.htm
+
+*.metagen
+*.obj
+*.7z
+
+packages/
+bin/Win32/Debug/*.lib
+bin/Win32/Release/*.lib
+bin/x64/Debug/*.lib
+bin/x64/Release/*.lib
+libs/
+tmp/
+ipch/
+obj/
+.vs/
+bin/
+.editorconfig
+
+# HslCommunication 为本地引用的第三方 DLL（非 NuGet 包，csproj 通过 ..\HslCommunication\ 引用）
+# 必须纳入版本库，否则克隆后缺少程序集无法编译
+# 只放行 .dll 与智能提示用 .xml，排除体积大且编译不需要的 .pdb 调试符号
+!HslCommunication/
+!HslCommunication/*.dll
+!HslCommunication/*.xml
+
+# 核心必需配置：SmartVisionSystem/bin/x64/Configurations 必须纳入版本库
+# 该目录承载相机参数与用户权限数据，缺失会导致程序启动即抛异常、无法登录
+# Git 无法在父目录被排除时单独放行子文件，因此需逐级反排除；其余 bin/ 编译产物继续忽略
+!SmartVisionSystem/bin/
+!SmartVisionSystem/bin/x64/
+!SmartVisionSystem/bin/x64/Configurations/
+!SmartVisionSystem/bin/x64/Configurations/**
+
+# 编译产物与运行时数据不入库（路径必须从仓库根写全，否则匹配不到 SmartVisionSystem/bin）：
+#   CameraVisionTool/*.vrws —— VisionPro/ViDi 工作区，单文件最大 245 MB，超出 GitHub 100 MB 硬限制
+#   Debug —— 依赖 DLL 与 CUDA/cuDNN 运行时，约 2 GB
+#   VINDataRecord —— 产线识别记录数据库，含真实 VIN 业务数据
+#   log —— 运行日志
+SmartVisionSystem/bin/Win32/
+SmartVisionSystem/bin/Debug/
+SmartVisionSystem/bin/x64/CameraVisionTool/
+SmartVisionSystem/bin/x64/Debug/
+SmartVisionSystem/bin/x64/Release/
+SmartVisionSystem/bin/x64/Images/
+SmartVisionSystem/bin/x64/VINDataRecord/
+log/

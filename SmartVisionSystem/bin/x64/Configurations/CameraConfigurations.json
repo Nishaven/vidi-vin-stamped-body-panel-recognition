@@ -1,0 +1,203 @@
+{
+    "PLCCommunicationIP": "192.168.1.1",
+    "PLCCommunicationPort": 102,
+    "LightControlCOMName": "COM1",
+    "LightControlCOMName2": "COM2",
+    "LightIndex": null,
+    "ISPAOn2": true,
+    "ISAutoSaveImage": false,
+    "SystemOnlineAddress": "DB400.DBX30.4",
+    "AutoModelAddress": "DB400.DBX31.0",
+    "AutoModelAddress2": null,
+    "CameraTriggerAddress": "DB400.DBX30.6",
+    "CarModelCameraFXAddress": "",
+    "CarModelCameraOKAddress": "",
+    "CarModelCameraNGAddress": "DB400.DBX30.3",
+    "CarModelCameraCarModelAddress": "DB400.DBB20",
+    "VINCodeCameraOKAddress": "DB400.DBX30.0",
+    "VINCodeCameraNGAddress": "DB400.DBX30.1",
+    "VINCodeCameraVINCodeAddress": "DB400.DBB0",
+    "JobRunDoneAddress": "DB400.DBX30.5",
+    "ListCameraParameters": [
+        {
+            "CameraName": "CarIdentificationCamera",
+            "CameraSerialNum": "DA3262865",
+            "CameraExposure": 4,
+            "CameraGain": 18,
+            "CameraTriggerMode": "Manual",
+            "IsSaveOKImage": true,
+            "IsSaveNGImage": true,
+            "备注": "ALL"
+        },
+        {
+            "CameraName": "VINCodeCamera1",
+            "CameraSerialNum": "DA3802099",
+            "CameraExposure": 7,
+            "CameraGain": 20,
+            "CameraTriggerMode": "Manual",
+            "IsSaveOKImage": true,
+            "IsSaveNGImage": true,
+            "备注": "A09"
+        },
+        {
+            "CameraName": "VINCodeCamera2",
+            "CameraSerialNum": "DA3637376",
+            "CameraExposure": 6,
+            "CameraGain": 20,
+            "CameraTriggerMode": "Manual",
+            "IsSaveOKImage": true,
+            "IsSaveNGImage": true,
+            "备注": "T58"
+        },
+        {
+            "CameraName": "VINCodeCamera3",
+            "CameraSerialNum": "DA3693041",
+            "CameraExposure": 4,
+            "CameraGain": 19,
+            "CameraTriggerMode": "Manual",
+            "IsSaveOKImage": true,
+            "IsSaveNGImage": true,
+            "备注": "A39"
+        },
+        {
+            "CameraName": "VINCodeCamera4",
+            "CameraSerialNum": "DA2266006",
+            "CameraExposure": 1,
+            "CameraGain": 17,
+            "CameraTriggerMode": "Manual",
+            "IsSaveOKImage": true,
+            "IsSaveNGImage": true,
+            "备注": "T68"
+        },
+        {
+            "CameraName": "VINCodeCamera5",
+            "CameraSerialNum": "DA9454321",
+            "CameraExposure": 1,
+            "CameraGain": 17,
+            "CameraTriggerMode": "Manual",
+            "IsSaveOKImage": true,
+            "IsSaveNGImage": true,
+            "备注": "T68-G/A66"
+        },
+        {
+            "CameraName": "VINCodeCamera6",
+            "CameraSerialNum": "DB1462035",
+            "CameraExposure": 6,
+            "CameraGain": 17,
+            "CameraTriggerMode": "Manual",
+            "IsSaveOKImage": true,
+            "IsSaveNGImage": true,
+            "备注": "T58-G"
+        },
+        {
+            "CameraName": "VINCodeCamera7",
+            "CameraSerialNum": "",
+            "CameraExposure": 5,
+            "CameraGain": 19,
+            "CameraTriggerMode": "Manual",
+            "IsSaveOKImage": true,
+            "IsSaveNGImage": true,
+            "备注": "V22-G"
+        },
+        {
+            "CameraName": "VINCodeCamera8",
+            "CameraSerialNum": "",
+            "CameraExposure": 1,
+            "CameraGain": 1,
+            "CameraTriggerMode": "Manual",
+            "IsSaveOKImage": true,
+            "IsSaveNGImage": true,
+            "备注": null
+        },
+        {
+            "CameraName": "VINCodeCamera9",
+            "CameraSerialNum": "",
+            "CameraExposure": 1,
+            "CameraGain": 17,
+            "CameraTriggerMode": "Manual",
+            "IsSaveOKImage": true,
+            "IsSaveNGImage": true,
+            "备注": "T68_/A66"
+        },
+        {
+            "CameraName": "VINCodeCamera10",
+            "CameraSerialNum": "",
+            "CameraExposure": 1.7999999523162842,
+            "CameraGain": 15,
+            "CameraTriggerMode": "Manual",
+            "IsSaveOKImage": true,
+            "IsSaveNGImage": true,
+            "备注": "V22"
+        },
+        {
+            "CameraName": "VINCodeCamera11",
+            "CameraSerialNum": "",
+            "CameraExposure": 1,
+            "CameraGain": 1,
+            "CameraTriggerMode": "Manual",
+            "IsSaveOKImage": true,
+            "IsSaveNGImage": true,
+            "备注": null
+        },
+        {
+            "CameraName": "VINCodeCamera12",
+            "CameraSerialNum": "",
+            "CameraExposure": 1,
+            "CameraGain": 17,
+            "CameraTriggerMode": "Manual",
+            "IsSaveOKImage": true,
+            "IsSaveNGImage": true,
+            "备注": null
+        },
+        {
+            "CameraName": "VINCodeCamera13",
+            "CameraSerialNum": "",
+            "CameraExposure": 1,
+            "CameraGain": 17,
+            "CameraTriggerMode": "Manual",
+            "IsSaveOKImage": true,
+            "IsSaveNGImage": true,
+            "备注": null
+        },
+        {
+            "CameraName": "VINCodeCamera14",
+            "CameraSerialNum": "",
+            "CameraExposure": 1,
+            "CameraGain": 17,
+            "CameraTriggerMode": "Manual",
+            "IsSaveOKImage": true,
+            "IsSaveNGImage": true,
+            "备注": null
+        },
+        {
+            "CameraName": "VINCodeCamera15",
+            "CameraSerialNum": "",
+            "CameraExposure": 1,
+            "CameraGain": 17,
+            "CameraTriggerMode": "Manual",
+            "IsSaveOKImage": true,
+            "IsSaveNGImage": true,
+            "备注": null
+        },
+        {
+            "CameraName": "VINCodeCamera16",
+            "CameraSerialNum": "",
+            "CameraExposure": 1,
+            "CameraGain": 17,
+            "CameraTriggerMode": "Manual",
+            "IsSaveOKImage": true,
+            "IsSaveNGImage": true,
+            "备注": null
+        },
+        {
+            "CameraName": "VINCodeCamera99",
+            "CameraSerialNum": "",
+            "CameraExposure": 1,
+            "CameraGain": 1,
+            "CameraTriggerMode": "Manual",
+            "IsSaveOKImage": true,
+            "IsSaveNGImage": true,
+            "备注": null
+        }
+    ]
+}
